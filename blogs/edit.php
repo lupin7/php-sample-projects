@@ -1,6 +1,14 @@
 <?php
 	require('authenticate.php');   // authenticate for required login
     require('connect.php');        // connect to the database
+    
+    $redirect_javascript =  '<script type="text/javascript"> '.
+                                'alert("Please log in/register to make changes."); '.
+                                'window.location.href="login_signup.php"'.
+                            '</script>';
+    if(!isset($_SESSION['username'])) {
+        echo $redirect_javascript;
+    }
 
     // use the get superglobal to get the id number
     $id_num = $_GET['id'];

@@ -1,5 +1,12 @@
 <?php
 	require('authenticate.php');       // require an authentication
+    $redirect_javascript =  '<script type="text/javascript"> '.
+                                'alert("Please log in/register."); '.
+                                'window.location.href="login_signup.php"'.
+                            '</script>';
+    if(!isset($_SESSION['username'])) {
+        echo $redirect_javascript;
+    }
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
