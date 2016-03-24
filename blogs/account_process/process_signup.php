@@ -1,6 +1,7 @@
 <?php
 	ob_start();
 	require('../connect.php');
+	session_start();
 	// $host="localhost"; // Host name 
 	// $username="root"; // Mysql username 
 	// $password=""; // Mysql password 
@@ -14,7 +15,7 @@
 	    printf("Connect failed: %s\n", $db->connect_error);
 	    exit();
 	}
-	
+
 	$myusername=$_POST['myusername']; 
 	$mypassword=$_POST['mypassword']; 
 

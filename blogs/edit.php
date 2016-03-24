@@ -1,5 +1,5 @@
 <?php
-	require('authenticate.php');   // authenticate for required login
+	// require('authenticate.php');   // authenticate for required login
     require('connect.php');        // connect to the database
     session_start();
     

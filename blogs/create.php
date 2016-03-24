@@ -1,5 +1,5 @@
 <?php
-	require('authenticate.php');       // require an authentication
+	// require('authenticate.php');       // require an authentication
     session_start();
     $redirect_javascript =  '<script type="text/javascript"> '.
                                 'alert("Please log in/register."); '.
