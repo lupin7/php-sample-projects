@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic);
+
+html, body
+{
+	font-family: 'Roboto Condensed';
+	margin:0;
+	padding:0;
+	height: 100%;
+}
+
+header
+{
+	width: 100%;
+	background: #001a00;
+	display: table;
+	/*border-collapse: collapse;*/
+	border-bottom: 7px solid green;
+	color: #FFF;
+}
+#container {
+   min-height:100%;
+   position:relative;
+   background: black;
+}
+section {
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 25px;
+	padding-bottom: 110px;
+}
+
+footer{
+	position: absolute;
+   	left: 0px;
+   	bottom: 0px;
+   	height: 100px;
+   	width: 100%;
+   	background:	#001a00;
+   	color: white;
+   	text-align: center;
+   	/*padding: 5px;*/
+	border-top: 7px solid green;
+}
+
+header h1 {
+	text-align: center;
+}
+
+ul#front_nav {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+ul#front_nav li {
+    display: inline-block;
+    text-align: center;
+    background: #000;
+}
+
+ul#front_nav li a {
+	display: block;
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+	font-family: "Oleo Script";
+	padding: 70px 70px;
+    border: 1px solid #fff;
+	/*padding: 70px 80px 60px 70px;*/
+	/*background: green;*/
+}
+
+ul#front_nav li a:hover {
+	transition: background .75s ease;
+    -moz-transition: background .75s ease;
+    -webkit-transition: background .75s ease;
+    background: green;
+}

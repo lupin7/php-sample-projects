@@ -1,0 +1,82 @@
+body
+{
+	font-family:Calibri;
+	margin:0px;
+	padding:0px;
+	background: #001400;
+	color: white;
+}
+
+header
+{
+	width:99.8%;
+	margin-bottom: 3px;
+	height:70px;
+	/*background: #007A29;*/
+	/*background: white;*/
+	text-align: center;
+	border:1px black solid;
+}
+
+header > p a:visited, a:link {
+	color: white;
+	text-decoration: none;
+}
+header > p a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*By using the ">", only h1's within our header will have this style*/
+header > h1	{
+	text-align: center;
+}
+
+section{
+	width: 950px;
+	margin: 10px auto 40px;
+	padding: 15px;
+	box-sizing: border-box;
+	/*background: #99D699;*/
+	background: black;
+	border: 3px solid white;
+	text-align: justify;
+	border-radius: 15px;
+}
+
+section > form{
+	margin: 0px auto;
+}
+
+div > .spread{
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+p > input{
+	margin-left: 60px;
+}
+
+pre{
+	background: white;
+	color: black;
+}
+
+.center{
+	margin: 5px auto;
+}
+
+#page_links > a {
+    border: 2px white dotted;
+    text-decoration: none;
+    padding: 5px 13px;
+    /*margin-left: -40px;*/
+    /*margin-right: 40px;*/
+    color: white;
+}
+#page_links > a:hover {
+    text-decoration: underline;
+    color: white;
+    border: 2px white solid;
+    background: gray;
+}
