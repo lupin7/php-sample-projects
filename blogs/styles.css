@@ -1,13 +1,10 @@
-*{
+body{
     font-family: Calibri;
     background-image: url('binding_dark.png');
     background-repeat: repeat;
 }
 
-#wrapper, #header, #header a, #menu, #menu a, #posts, #posts a, li, 
-small, h1, h2, h3, p, .blue_link, form, legend, fieldset, 
-input, textarea, p a, #footer h5 {
-/*#wrapper {*/
+#wrapper, #header, #footer {
     background: #DAE2DA;
 }
 div#wrapper {
@@ -95,4 +92,23 @@ fieldset {
 .search{
     float: right;
     margin-top: -40px;
+}
+
+
+#login-signup {
+    /*border: 1px black solid;*/
+    /*margin: 10px auto;*/
+    width: 100%;
+}
+#login-signup input {
+    background: white;
+}
+
+#login, #sign_up {
+    /*width: 360px;*/
+    width: 46%;
+    /*margin: 10px 5px;*/
+    padding: 0 10.5px 25px 10.5px;
+    border: 1px black solid;
+    display: inline-block;
 }

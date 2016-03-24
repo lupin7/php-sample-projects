@@ -97,13 +97,13 @@
                     Title: 
                     <br />
                     <!-- input text box's value contains the row's title -->
-                    <input id="title" name="title" type="text" value='<?= $title ?>' size="70" style="background-color: white"/>
+                    <input id="title" name="title" type="text" value='<?= $title ?>' size="40" style="background-color: white"/>
                 </p>
                 <p>
                     Content: 
                     <br />
                     <!-- textarea's value contains the row's content -->
-                    <textarea id="content" name="content" rows="10" cols="120" style="background-color: white"><?= $content ?></textarea>
+                    <textarea id="content" name="content" rows="10" cols="50" style="background-color: white"><?= $content ?></textarea>
                 </p>
                 <p> 
                     <input type="submit" name="update" value="Update" style="background-color: white" />

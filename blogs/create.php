@@ -27,12 +27,12 @@
                 <p>
                     Title: 
                     <br />
-                    <input id="title" name="title" type="text" size="70" style="background-color: white"/>
+                    <input id="title" name="title" type="text" size="40" style="background-color: white"/>
                 </p>
                 <p>
                     Content: 
                     <br />
-                    <textarea id="content" name="content" rows="10" cols="120" style="background-color: white"></textarea>
+                    <textarea id="content" name="content" rows="10" cols="50" style="background-color: white"></textarea>
                 </p>
                 <p><input type="submit" value="Create" style="background-color: white"/></p>
             </fieldset>
