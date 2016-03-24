@@ -1,18 +1,10 @@
-<!-- 
-    Blogs:
-    - Blogs sample project
-    - Shows an excerpt of the 5 latest posts or updates with timestamps. 
-    - These can either be viewed or edited
-    - Included in every page is a search bar that searches the database for keywords and shows which posts contain those keywords
-    - Navigation included on all pages with access to the CMS and ESP game page.
--->
-
 <?php
 	require('connect.php');        // connect to the database
 
     // Select query for the latest 5 posts
 	$select_5  = "SELECT * FROM blogs ORDER BY datetime DESC LIMIT 5";
     $result = $db->query($select_5);
+    session_start();
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"

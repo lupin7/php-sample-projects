@@ -1,5 +1,6 @@
 <?php
 	require('connect.php');        // connect to the database
+    session_start();
 
     // get the id with GET superglobal
     $id_num = $_GET['id'];

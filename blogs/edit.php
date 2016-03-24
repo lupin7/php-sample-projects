@@ -1,6 +1,7 @@
 <?php
 	require('authenticate.php');   // authenticate for required login
     require('connect.php');        // connect to the database
+    session_start();
     
     $redirect_javascript =  '<script type="text/javascript"> '.
                                 'alert("Please log in/register to make changes."); '.

@@ -1,5 +1,6 @@
 <?php
 	require('connect.php');        // connect to the database
+    session_start();
 
     // Select query for all the rows
 	$select_all = "SELECT * FROM blogs ORDER BY datetime DESC";

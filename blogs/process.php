@@ -1,5 +1,6 @@
 <?php
 	require('connect.php');			// connect to the database
+    session_start();
 	
 	// if the title and contents contain values
 	if( (isset($_POST['title']) && isset($_POST['content']) )  ){

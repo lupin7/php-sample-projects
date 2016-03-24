@@ -1,5 +1,6 @@
 <?php
 	require('connect.php');        // connect to the database
+    session_start();
 
 	$searched_title = '';
 	if( isset($_POST['search']) ) {

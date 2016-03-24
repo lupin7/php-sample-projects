@@ -1,5 +1,4 @@
 <?php
-
 	ob_start();
 	require('../connect.php');
 	// $host="localhost"; // Host name 
@@ -15,6 +14,7 @@
 	    printf("Connect failed: %s\n", $db->connect_error);
 	    exit();
 	}
+	
 	$myusername=$_POST['myusername']; 
 	$mypassword=$_POST['mypassword']; 
 
